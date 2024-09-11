@@ -2,4 +2,61 @@
 
 body {
     font-family: "Outfit", sans-serif;
+    margin:0%;
+    background-color: #191919;
+    color:#d4d4d5
+}
+
+nav {
+    background-color: #2e2932;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+a {
+    color: #d4d4d5;
+    text-decoration: none;
+    padding-right: 1em;    
+}
+a:hover {
+    color:#c6b7d2;
+}
+a:active {
+    color:#af9ebc;
+}
+
+main {
+    margin-left: 2em;
+}
+
+footer {
+    display:block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    color:#d4d4d5;
+    background: none;
+    border: none;
+    fill:#d4d4d5;
+    display: flex;
+}
+
+button:hover {
+    color:#c6b7d2;
+    fill:#c6b7d2
+}
+
+button:active {
+    color:#af9ebc;
+    fill:#af9ebc
+}
+
+button span {
+    padding-left: 0.5em;
+    padding-top: .22em;
 }

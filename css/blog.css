@@ -1,0 +1,25 @@
+#content li h2{
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+#content li {
+    margin-bottom: 5em;
+}
+
+#content ul {
+    /* display: flex;
+    align-items: flex-end; */
+    list-style-type: none;
+}
+
+#content img {
+    height: 10em;
+    margin-right: 2em;
+    border-radius: 1em
+}
+
+#content li a {
+    display: flex;
+    /* align-items: cen; */
+}

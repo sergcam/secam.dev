@@ -1,13 +1,23 @@
 header {
-    display: flex;
-    align-items: flex-end
+    /* display: flex;
+    align-items: flex-end; */
+    font-size: 1.4rem;
 }
 header h1{
     margin-bottom: 0%;
 }
 
 header span {
-    color: #8f8796;
-    padding-left: .4em;
-    padding-bottom: .2em
+    color: #484848;
+    margin-bottom: 0%;
+
+}
+
+#content {
+    /* margin-top: rem;
+    /* margin-left: 24rem; */
+    width: 40em;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.5em;
 }

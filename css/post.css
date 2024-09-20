@@ -1,14 +1,10 @@
-header {
-    /* display: flex;
-    align-items: flex-end; */
-    font-size: 1.4rem;
-}
+
 header h1{
     margin-bottom: 0%;
 }
 
 header span {
-    color: #484848;
+    color: #696969; /*nice.*/
     margin-bottom: 0%;
 
 }

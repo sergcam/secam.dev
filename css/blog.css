@@ -11,6 +11,7 @@
     /* display: flex;
     align-items: flex-end; */
     list-style-type: none;
+    padding-left: 0%;
 }
 
 #content img {
@@ -21,5 +22,6 @@
 
 #content li a {
     display: flex;
+    color: #0c0c0c;
     /* align-items: cen; */
 }

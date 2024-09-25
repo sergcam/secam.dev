@@ -66,15 +66,17 @@ main #content {
     color: #595959;
     font-size: 1.4em;
     max-width: 100%;
+    width: 55rem;
 }
 
 main #content a {
-    color:#2a2e41;
+    color: #54729b; 
     text-decoration: none;
 }
 main #content a:hover {
-    color:#343b5c;
+    text-decoration: underline;
+    text-decoration-thickness: .1rem;
 }
 main #content a:active {
-    color:#58608a;
+    color:#404766;
 }

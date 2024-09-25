@@ -1,27 +1,27 @@
-#content li h2{
-    margin-bottom: 0;
-    font-size: 3em;
-}
-
-#content li {
-    margin-bottom: 5em;
-}
-
-#content ul {
+main #content ul {
     /* display: flex;
     align-items: flex-end; */
     list-style-type: none;
     padding-left: 0%;
 }
 
-#content img {
-    height: 10em;
-    margin-right: 2em;
-    border-radius: 1em
+main #content ul li.posts {
+    margin-bottom: 5em;
 }
 
-#content li a {
+main #content ul li.posts a {
     display: flex;
     color: #0c0c0c;
-    /* align-items: cen; */
 }
+
+main #content ul li.posts a h2{
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+main #content ul li.posts a img {
+    height: 10em;
+    margin-right: 2em;
+    border-radius: 1em;
+}
+

@@ -1,16 +1,17 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* styles */
 html {
     font-size: .9em;
-}
-body {
     font-family: "Outfit", sans-serif;
-    margin:0%;
     background-color: #f5f5f5;
     color:#0c0c0c;
-    /* display: flex; */
 }
 
-
+body {
+    margin:0%;
+}
 
 nav {
     background-color: #0c0c0c;
@@ -21,16 +22,9 @@ nav {
     flex-direction: column;
     position: fixed;
     top: 0;
-    left: 0;
     bottom: 0;
     width: 16rem;
-    text-align: left;
 } 
-nav #home_button {
-    font-size: 5rem;
-    font-weight: 400;
-    margin-bottom: 2.5rem;
-}
 
 nav a {
     color: #f5f5f5;
@@ -40,63 +34,47 @@ nav a {
     font-weight: 300;
     padding-bottom: 1.2rem;
 }
+
 nav a:hover {
     color:#cdd4f6;
 }
 nav a:active {
     color:#adb4d6;
 }
+
+nav a#home_button {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
 nav p {
     position: absolute;
     bottom: 1.2rem;
 }
 
-header {
-    /* display: flex;
-    align-items: flex-end; */
+main {
+    margin-left: 24rem;
+    margin-right: 4rem;
+}
+
+main header {
     font-size: 1.4rem;
 }
 
-main {
-    margin-left: 24rem;
+main #content {
     color: #595959;
+    font-size: 1.4em;
+    max-width: 100%;
 }
 
-main h1 {
-    color: #0c0c0c;
-}
-
-main a{
+main #content a {
     color:#2a2e41;
     text-decoration: none;
 }
-main a:hover {
+main #content a:hover {
     color:#343b5c;
 }
-main a:active {
+main #content a:active {
     color:#58608a;
-}
-
-button {
-    font-family: "Outfit", sans-serif;
-    color:#d4d4d5;
-    background: none;
-    border: none;
-    fill:#d4d4d5;
-    display: flex;
-}
-
-button:hover {
-    color:#c6b7d2;
-    fill:#c6b7d2
-}
-
-button:active {
-    color:#af9ebc;
-    fill:#af9ebc
-}
-
-button span {
-    padding-left: 0.5em;
-    padding-top: .22em;
 }

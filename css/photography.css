@@ -1,0 +1,7 @@
+main #photos {
+    display: flex;
+}
+
+main #photos .photo {
+    width: 60%;
+}

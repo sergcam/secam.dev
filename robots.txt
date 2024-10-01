@@ -1,0 +1,4 @@
+Sitemap: https://secam.dev/sitemap.xml
+
+User-agent: *
+Disallow:

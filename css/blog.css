@@ -1,58 +1,56 @@
 main #content {
     width: 80rem;
-}
+    ul {
+        list-style-type: none;
+        padding-left: 0%;
 
-main #content ul {
-    list-style-type: none;
-    padding-left: 0%;
-}
+        .post {
+            margin-bottom: 5em;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
 
-main #content ul .post {
-    margin-bottom: 5em;
-}
+            .title {
+                margin-bottom: 0;
+                margin-top: 0.1rem;
+                font-size: 2em;
+                font-weight: 500;
 
-main #content ul .post {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%
-}
+                a {
+                    color: #0c0c0c;
+                    text-decoration: none;
+                }
+            }
 
-main #content ul .post .title_text {
-    min-width: 25rem;
-    width: 66%
-}
+            .title_text {
+                min-width: 25rem;
+                width: 66%
+            }
 
-main #content ul .post .title{
-    margin-bottom: 0;
-    margin-top: 0.1rem;
-    font-size: 2em;
-    font-weight: 500;
-}
-main #content ul .post .title a{ 
-    color: #0c0c0c;
-    text-decoration: none;
-}
+            .thumb {
+                height: 10em;
+                margin-right: 2rem;
+                border-radius: .3rem;
+            }
 
-main #content ul .post .thumb {
-    height: 10em;
-    margin-right: 2rem;
-    border-radius: .3rem;
-}
+            .date {
+                margin-top: 0rem;
+                margin-bottom: 0;
+                color: #54729b; 
+            }
 
-main #content ul .post .date {
-    margin-top: 0rem;
-    margin-bottom: 0;
-    color: #54729b; 
-}
+            .preview {
+                margin-top: .7rem;
+                margin-bottom: 0;
+                max-height:5.3rem;
+                overflow: hidden;
+            }
 
-main #content ul .post .preview {
-    margin-top: .7rem;
-    margin-bottom: 0;
-    max-height:5.3rem;
-    overflow: hidden;
-}
+            .expand {
+                margin-top: .5rem;
+                margin-bottom: 0;
+            }
 
-main #content ul .post .expand {
-    margin-top: .5rem;
-    margin-bottom: 0;
+        }
+    }
 }

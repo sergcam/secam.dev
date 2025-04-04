@@ -1,0 +1,45 @@
+#content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    
+
+    
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 70rem; */
+    gap: 5rem;
+
+    img {
+        height: 15rem;
+        margin-right: 0;
+        border-radius: .3rem;
+    }
+
+    .section_text {
+        min-width: 25rem;
+        width: 50%;
+        flex-grow: 1;
+
+        h1, h2{
+            margin: 0;
+            color: #0c0c0c;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+    }
+
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+
+        .section_text {
+            text-align: right;
+        }
+    }   
+}

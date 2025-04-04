@@ -55,17 +55,30 @@ nav {
 
 main {
     margin-left: 24rem;
-    margin-right: 4rem;
+    margin-right: 20rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 
-    header {
-        font-size: 1.4rem;
+    h1 {
+        font-size: 4rem;
+        margin-top: 0;
+        color: #0c0c0c;
+    }
+
+    h2 {
+        font-size: 3rem;
+        color: #0c0c0c;
+    }
+
+    ul {
+        list-style: none;
     }
 
     #content {
         color: #595959;
         font-size: 1.4em;
         max-width: 100%;
-        width: 55rem;
+        
 
         a {
             color: #54729b; 

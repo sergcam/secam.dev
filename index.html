@@ -24,7 +24,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sergio Camacho | Developer, Tech Enthusiast, and Hobby Collecter based in San Jose, California. Here you can find my blog along with some of my coding projects and photography work">
     <link rel="canonical" href="https://www.secam.dev">
+    <link rel="preload" href="/css/main.css" as="style">
+    <link rel="preload" href="/css/index.css" as="style">
+    <link rel="preload" href="/assets/person.jpg" as="image">
+    <link rel="preload" href="/assets/camera.jpg" as="image">
+    <link rel="preload" href="/assets/codding.jpg" as="image">
+    <link rel="preload" href="/assets/journal.jpg" as="image">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org/",
@@ -50,30 +57,37 @@
       <p>designed and built by me.</p>
     </nav>
     <main>
-      <div id="content">
-        <p></p>
-        
-        <div id="about_section">
-          <h1>
-            Sergio Camacho
-          </h1>
-          <p>some stuff about me</p>
+      <div id="content">        
+        <div class="section">
+          <div class="section_text">
+            <h1>
+              Sergio Camacho
+            </h1>
+            <p>Hey I'm Sergio! I'm a programmer, among other things, based in the SF bay area, and this is my website, where you can find various works of my own creation. Learn more about me in the <a href="/about">about</a> section</p>  
+          </div>
+          <a href="/about"><img src="/assets/person.jpg" alt="photo of Sergio"></a>
         </div>
-        <div id="projects_section">
-          <h2>Coding Projects</h2>
-          <p>some stuff about coding projects</p>
+
+        <div class="section">
+          <div class="section_text">
+            <h2>Coding Projects</h2>
+            <p>Here you can find some of my coding projects that I've worked on over the years, mostly for school with hopefully more personal projects to come. Head over to the <a href="/projects">projects</a> section to see more</p>
+          </div>
+          <a href="/projects"><img src="/assets/codding.jpg" alt="coding symbol"></a> 
         </div>
-        <div id="photography_section">
-          <h2>Photography</h2>
-          <p>some stuff about my photography work</p>
+        <div class="section">
+          <div class="section_text">
+            <h2>Photography</h2>
+            <p>I am also an amateur hobbyist photographer. Mostly nature photograpy at the moment but looking to try more genres in the future. Check out some of my photos in the <a href="/photography">photography</a> section</p>
+          </div>
+          <a href="/photography"><img src="/assets/camera.jpg" alt="photo of a professional camera"></a>
         </div>
-        <div id="blog_section">
-          <h2>Blog</h2>
-          <p>some stuff about the blog</p>
-        </div>
-        
-        <div class="dl">
-          <a href="/assets/sd_card.zip" download rel="nofollow">download</a>
+        <div class="section">
+          <div class="section_text">
+            <h2>Blog</h2>
+            <p>I also have my blog here where a write about pretty much anything I feel like. Check out my posts in the <a href="/blog">blog</a> section</p>
+          </div>
+          <a href="/blog"><img src="/assets/journal.jpg" alt="photo of a journal"></a>
         </div>
       </div>
     </main>

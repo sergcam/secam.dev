@@ -10,7 +10,8 @@ html {
 
 body {
     margin:0%;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -22,10 +23,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
-    /* top: 0;
-    bottom: 0;
-    width: 16rem; */
 
     img {
         height: 8rem;
@@ -58,6 +55,7 @@ nav {
                 margin-bottom: 2.5rem;
             }
         }
+        padding-bottom: 0.5rem;
     }
 } 
 
@@ -66,7 +64,7 @@ main {
     max-width: 50rem;
     padding: 2rem;
     /* align-items: center; */
-    justify-self: center;
+    align-self: center;
 }
 /* 
 main {

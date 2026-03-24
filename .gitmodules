@@ -1,0 +1,3 @@
+[submodule "bomberjs"]
+	path = bomberjs
+	url = https://github.com/sergcam/bomberjs
